@@ -12,14 +12,14 @@ export default {
 <template>
   <div id="about">
     <h1>About Me</h1>
-    <h2><span class="colored">Trinethr</span><code class="alt big"> aka brin aka xXTgamerXx9844</code></h2>
+    <h2><span class="colored">Trinethr</span><code class="alt big"> aka brinter</code></h2>
     <p><code class="stuff colored">I use arch btw</code><code class="alt"> (yes.)</code></p>
-    <p title="click to copy" class="clickable" v-on:click="copyusername"><code class="stuff colored">Discord - </code>xXTgamerXx#1840</p>    
-    <p><code class="stuff colored">Interests - </code>UI design and customization, Art, Music, Low level programming</p>    
+    <p title="click to copy" class="clickable" v-on:click="copyusername"><code class="stuff colored">Discord - </code>._.brinter</p>    
+    <p><code class="stuff colored">Interests - </code>UI design and customization, Art, Music, Cinematography, Programming</p>    
     <p><code class="stuff colored">Skills - </code>
       <ul>
         <li><code class="stuff colored">Frontend - </code><span>HTML, CSS, Vanilla JS, Vue, Three.js</span></li>
-        <li><code class="stuff colored">Others - </code><span>Blender, Drawing, Photography, Photo editing</span></li>
+        <li><code class="stuff colored">Others - </code><span>3D Modelling, Drawing, Photography, Photo/Video editing</span></li>
       </ul>
     </p>
     <p>Work in progress</p>
