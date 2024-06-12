@@ -13,7 +13,6 @@ export default {
   <div id="about">
     <h1>About Me</h1>
     <h2><span class="colored">Trinethr</span><code class="alt big"> aka brinter</code></h2>
-    <p><code class="stuff colored">I use arch btw</code><code class="alt"> (yes.)</code></p>
     <p title="click to copy" class="clickable" v-on:click="copyusername"><code class="stuff colored">Discord - </code>._.brinter</p>    
     <p><code class="stuff colored">Interests - </code>UI design and customization, Art, Music, Cinematography, Programming</p>    
     <p><code class="stuff colored">Skills - </code>
@@ -22,7 +21,6 @@ export default {
         <li><code class="stuff colored">Others - </code><span>3D Modelling, Drawing, Photography, Photo/Video editing</span></li>
       </ul>
     </p>
-    <p>Work in progress</p>
     <p>© Trinethr 2022</p>
   </div>
 </template>

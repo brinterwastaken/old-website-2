@@ -3,9 +3,9 @@ export default {
   data () {
     return {
       linkurls: [
-        "/yt/",
-        "/ig/",
-        "/gh/",
+        "yt/",
+        "ig/",
+        "gh/",
         "https://reddit.com/u/xXTgamerXx",
         "https://www.deviantart.com/t123yay",
         "https://open.spotify.com/user/doc0wc4yekwnq5tzbcjx2oo4z"
