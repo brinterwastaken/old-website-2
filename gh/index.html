@@ -7,16 +7,16 @@
   <title>Redirecting to GitHub...</title>
 </head>
 <body>
-  <div id="redirectfail">If the redirect fails, <a id="link" href="https://github.com/xXTgamerXx/">click here</a></div>
+  <div id="redirectfail">If the redirect fails, <a id="link" href="https://github.com/brinterwastaken/">click here</a></div>
   <div id="repoerror" style="color:red"></div>
   <script>
     const urlParams = new URLSearchParams(location.search);
     var reponame = (urlParams.get('repo'))
     if (reponame != null && reponame != "") {
       document.querySelector("#link").href += reponame
-      location.href = "https://github.com/xXTgamerXx/" + reponame;
+      location.href = "https://github.com/brinterwastaken/" + reponame;
     } else if (reponame == null) {
-      location.href = "https://github.com/xXTgamerXx";
+      location.href = "https://github.com/brinterwastaken";
     } else {
       document.querySelector("#redirectfail").innerText = ""
       document.querySelector("#repoerror").innerText = "Error - no repository specified!"
